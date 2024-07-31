@@ -70,6 +70,7 @@ export function SectionCards() {
             scrollTrigger: {
                 trigger: sectionCard,
                 start: '60% center',
+
             }
         })
 
@@ -95,7 +96,7 @@ export function SectionCards() {
                 alt="phone-mockup"
                 width={375}
                 height={666} 
-                className="static md:sticky top-56 mx-auto -mt-[17rem] md:-mt-[31rem] mb-16 z-10"
+                className="static md:sticky top-56 mx-auto w-[290px] md:w-[375px] -mt-[15rem] md:-mt-[31rem] mb-16 z-10"
                 ref={mockupPhoneRef} 
             />
 
