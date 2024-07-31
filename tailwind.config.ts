@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      maxWidth: {
+        grid: '1440px',
+        'hero-content': '1220px',
+        'area-mockups': '980px',
+        'area-cards': '1320px',
       },
+      height: {
+        'section-hero': '874px',
+        'area-icons': '855px',
+        'area-cards': '600px',
+      },
+      screens: {
+        md: '1220px',
+      }
     },
   },
   plugins: [],
